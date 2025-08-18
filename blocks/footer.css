@@ -1,0 +1,8 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__rights {
+  margin: 92px 0 24px;
+}
