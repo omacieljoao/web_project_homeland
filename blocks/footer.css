@@ -6,3 +6,18 @@
 .footer__rights {
   margin: 92px 0 24px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer__rights {
+    margin: 88px 0 24px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
+@media screen and (max-width: 544px) {
+  .footer__rights {
+    margin-top: 64px;
+    font-size: 14px;
+    line-height: 1;
+  }
+}

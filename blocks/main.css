@@ -10,3 +10,26 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .main {
+    margin: 90px 0 0 24px;
+    padding: 0;
+  }
+  .main__title {
+    font-size: 45px;
+    line-height: 1.08;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 544px) {
+  .main {
+    margin-top: 64px;
+  }
+
+  .main__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
