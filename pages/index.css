@@ -1,8 +1,11 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/root.css);
 @import url(../blocks/cite.css);
 @import url(../blocks/footer.css);
 @import url(../blocks/header.css);
 @import url(../blocks/main.css);
 @import url(../blocks/page.css);
-@import url(../vendor/fonts.css);
+@import url(../blocks/grid.css);
+@import url(../blocks/cities.css);
+@import url(../blocks/artist.css);
