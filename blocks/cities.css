@@ -104,6 +104,37 @@
     max-height: 92px;
   }
 
+  .cities__artist-container {
+    grid-area: artist;
+  }
+
+  .cities__artist-title {
+    color: #aaa;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1;
+  }
+
+  .cities__artist-content {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .cities__artist-container {
+      align-self: flex-end;
+    }
+  }
+  @media screen and (max-width: 544px) {
+    .cities__artist-container {
+      max-width: 288px;
+      min-height: 89px;
+      align-self: flex-start;
+      padding-left: 16px;
+    }
+  }
+
   .cities__image {
     height: 340px;
     max-width: 340px;
