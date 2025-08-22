@@ -27,6 +27,22 @@
   max-height: 228px;
   grid-area: title;
 }
+.cities__artist-container {
+  grid-area: artist;
+}
+
+.cities__artist-title {
+  color: #aaa;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.cities__artist-content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+}
 
 .cities__image {
   height: 460px;
@@ -102,23 +118,6 @@
     line-height: 1.1;
     max-width: 340px;
     max-height: 92px;
-  }
-
-  .cities__artist-container {
-    grid-area: artist;
-  }
-
-  .cities__artist-title {
-    color: #aaa;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1;
-  }
-
-  .cities__artist-content {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.22;
   }
 
   @media screen and (max-width: 1024px) {
